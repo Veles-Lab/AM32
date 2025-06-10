@@ -13,7 +13,7 @@
 // #define WRAITH32
 // #define AIKON20X20
 // #define AIKONSINGLE
-// #define FLYCOLOR
+   #define FLYCOLOR_F051
 // #define HKMICRO
 // #define AM32REF_F051
 // #define BLPWR
@@ -1613,6 +1613,8 @@
 #define VOLTAGE_ADC_PIN LL_GPIO_PIN_6
 #define CURRENT_ADC_CHANNEL LL_ADC_CHANNEL_3
 #define CURRENT_ADC_PIN LL_GPIO_PIN_3
+#define TARGET_VOLTAGE_DIVIDER 210
+#define MILLIVOLT_PER_AMP 25
 #endif
 
 #ifdef ARIA_RAMP_F051
